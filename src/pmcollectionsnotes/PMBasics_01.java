@@ -61,9 +61,9 @@ public class PMBasics_01 {
 	 *              on the server side - the business logic is written - the main method
 	 *              will be the client which would be called by the server
 	 *              
-	 *              the sequence of data also shud be the same - if mentioned in the 
-	 *              API documentation(where contract, schema, urls, json, error codes,
-	 *              authentications mentioned) 
+	 *     the sequence of data also shud be the same N not breached - if mentioned in the 
+	 *     API documentation(where contract, schema, urls, json, error codes,
+	 *     authentications mentioned) 
 	 *     
 	 *     Contract testing/schema testing
 	 *     
@@ -160,6 +160,92 @@ public class PMBasics_01 {
 	 *   book mark the above url
 	 * 
 	 * CACHING : shud be implemented properly at the server side
+	 * 
+	 * *The best way to remember http status codes.*
+
+✅ *Join Telegram:* https://telegram.me/qaidea
+
+➡️100-series → Think of "progress updates."
+
+➡️200-series → Think of "successful transactions."
+
+➡️300-series → Think of "changes in direction."
+
+➡️400-series → Think of "client mistakes."
+
+➡️500-series → Think of "server problems."
+
+🔶️1xx – Informational Responses
+• 100 Continue
+• 101 Switching Protocols
+• 102 Processing (WebDAV)
+• 103 Early Hints
+
+🔶️2xx – Success Responses
+• 200 OK
+• 201 Created
+• 202 Accepted
+• 203 Non-Authoritative Information
+• 204 No Content
+• 205 Reset Content
+• 206 Partial Content
+• 207 Multi-Status (WebDAV)
+• 208 Already Reported (WebDAV)
+• 226 IM Used
+
+🔶️3xx – Redirection Responses
+• 300 Multiple Choices
+• 301 Moved Permanently
+• 302 Found
+• 303 See Other
+• 304 Not Modified
+• 305 Use Proxy (Deprecated)
+• 306 (Unused)
+• 307 Temporary Redirect
+• 308 Permanent Redirect
+
+🔶️4xx – Client Error Responses
+• 400 Bad Request
+• 401 Unauthorized
+• 402 Payment Required
+• 403 Forbidden
+• 404 Not Found
+• 405 Method Not Allowed
+• 406 Not Acceptable
+• 407 Proxy Authentication Required
+• 408 Request Timeout
+• 409 Conflict
+• 410 Gone
+• 411 Length Required
+• 412 Precondition Failed
+• 413 Payload Too Large
+• 414 URI Too Long
+• 415 Unsupported Media Type
+• 416 Range Not Satisfiable
+• 417 Expectation Failed
+• 418 I'm a Teapot (April Fools' joke from RFC 2324)
+• 421 Misdirected Request
+• 422 Unprocessable Entity (WebDAV)
+• 423 Locked (WebDAV)
+• 424 Failed Dependency (WebDAV)
+• 425 Too Early
+• 426 Upgrade Required
+• 428 Precondition Required
+• 429 Too Many Requests
+• 431 Request Header Fields Too Large
+• 451 Unavailable For Legal Reasons
+
+🔶️5xx – Server Error Responses
+• 500 Internal Server Error
+• 501 Not Implemented
+• 502 Bad Gateway
+• 503 Service Unavailable
+• 504 Gateway Timeout
+• 505 HTTP Version Not Supported
+• 506 Variant Also Negotiates
+• 507 Insufficient Storage (WebDAV)
+• 508 Loop Detected (WebDAV)
+
 	 * 
 	 * 
 	 */
